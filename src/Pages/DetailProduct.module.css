@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    font-family: 'Poppins';
+    color: #5d5d5d;
+    margin-top: 2rem;
+}
+
+.imgProduct{
+    width: 15rem;
+    padding: 2rem 3rem;
+    border: 0.001rem solid #bebcbc;
+    border-radius: 3%;
+    margin-right: 2rem
+}
+
+.left{
+    width: 35rem;
+    padding: 2rem 3rem;
+    
+}
+
+.price{
+    font-weight: 600;
+    color: #1a1717;
+}
+
+.right{
+    width: 25rem;
+}
+
+.rate{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.title{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 2rem;
+    color: #1a1717;
+}

@@ -1,0 +1,42 @@
+.container{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    width: 65vw;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.imgRight{
+    width: 25rem;
+    border-radius: 15%;
+    padding-top: -8rem;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    padding: 2rem;
+    border-radius: 25% 0 25% 0%;
+    margin-left: 4rem;
+    border: 1px solid #2b1bb7;
+}
+
+.subtitle{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
+.title{
+    font-weight: 600;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Poppins';
+}

@@ -1,0 +1,7 @@
+.productCard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 12rem;
+    justify-content: flex-start;
+}
