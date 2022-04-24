@@ -1,4 +1,5 @@
 import React from 'react'
+import AddToCart from '../Components/AddToCart'
 import Header from '../Components/Header'
 import styles from './DetailProduct.module.css'
 
@@ -18,7 +19,7 @@ const DetailProduct = () => {
             <p className={styles.price}>Rp 215,000</p>
             <p className={styles.category}>Women Clothing</p>
             <p className={styles.description}>95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem</p>
-
+            <AddToCart text='Add To Cart' />
             </div>
         </div>
     </div>

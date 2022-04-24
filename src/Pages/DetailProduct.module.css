@@ -4,7 +4,7 @@
     width: 60vw;
     font-family: 'Poppins';
     color: #5d5d5d;
-    margin-top: 2rem;
+    
 }
 
 .imgProduct{
@@ -33,6 +33,7 @@
     font-size: 2rem;
     font-family: 'Poppins';
     text-align: left;
+    padding-bottom: 2rem;
 }
 
 .rate{

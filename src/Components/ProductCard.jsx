@@ -1,13 +1,13 @@
 import React from 'react'
 import styles from './ProductCard.module.css'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 
 const ProductCard = (props) => {
 
   const navigate = useNavigate();
-  const detailProductHandler = () =>{
-    navigate(props.id)
-  }
+  let {id} = useParams();
+  
+
   return (
     <Link to ={`/detailproduct/${props.id}`}>
     <div className={styles.cardWrapper}>
