@@ -1,10 +1,15 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import styles from './ProductCard.module.css'
+import { Link, useNavigate } from 'react-router-dom'
 
 const ProductCard = (props) => {
+
+  const navigate = useNavigate();
+  const detailProductHandler = () =>{
+    navigate(props.id)
+  }
   return (
-    
+    <Link to ={`/detailproduct/${props.id}`}>
     <div className={styles.cardWrapper}>
         <div className={styles.container}>
         <div className={styles.imageWrapper}>
@@ -20,7 +25,7 @@ const ProductCard = (props) => {
         </div>
     </div>
     </div>
-    
+    </Link>
   )
 }
 

@@ -24,15 +24,22 @@
 .price{
     font-weight: 600;
     color: #1a1717;
+    font-family: 'Poppins';
+    text-align: left;
 }
 
 .right{
     width: 25rem;
+    font-size: 2rem;
+    font-family: 'Poppins';
+    text-align: left;
 }
 
 .rate{
     font-weight: 400;
     font-size: 1rem;
+    font-family: 'Poppins';
+    text-align: left;
 }
 
 .title{
@@ -40,4 +47,21 @@
     font-weight: 700;
     font-size: 2rem;
     color: #1a1717;
+    text-align: left;
+}
+
+.category{
+    font-family: 'Poppins';
+    text-align: left;
+    font-weight: 600;
+}
+
+.description{
+    font-family: 'Poppins';
+    text-align: left;
+}
+
+.count{
+    font-family: 'Poppins';
+    text-align: left;
 }

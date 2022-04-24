@@ -8,6 +8,7 @@ function createCard(product){
   return (
     <ProductCard 
     key = {product.id}
+    id = {product.id}
     urlImg = {product.image}
     prodName = {product.title}
     prodPrice = {(product.price * 10000).toLocaleString()}

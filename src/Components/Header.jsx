@@ -7,13 +7,13 @@ export const Header = () => {
   return (
     <div>
     <nav className={styles.header}>
-    <a href="#contact"><img className={styles.logo} src={logo} alt='logo'></img></a>
+    <Link to='/'><img className={styles.logo} src={logo} alt='logo'></img></Link>
         <div className={styles.menuWrapper}>
         <ul className = {styles.menu}>
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/about'>About</Link></li>
             </ul>
-        <button className={styles.buttonContact}><a href="#contact">Contact</a></button>
+            <Link to='/contact'><button className={styles.buttonContact}><a href="#contact">Contact</a></button></Link>
         </div>
         
     </nav>
